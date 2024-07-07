@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities{
+      /* Checkmark class */
+      .cha{
+            @apply px-0.5 py-2 md:px-1 md:py-1.5
+      }
+      /* pointer image class */
+      .poi{
+            @apply md:px-1 md:py-1 px-0.5 py-0.5
+      }
+      /* pointer text */
+      .text{
+            @apply md:text-base text-sm font-normal md:font-medium 
+            
+      }
+      .che{
+            @apply text-[#072125] md:text-base text-sm font-semibold md:font-medium
+      }
+      .foot{
+            @apply text-[#20484F] md:font-medium text-base font-normal dark:text-white
+      }
+      .cop{
+            @apply text-center text-[#20484F] md:font-medium text-base font-normal dark:text-white
+      }
+      .ban{
+            @apply w-fit md:w-full h-screen bg-no-repeat bg-center bg-cover  md:px-0 px-4 md:py-32 py-20  
+      }
+      .chap5{
+            @apply border-2 border-[#F44335] p-1 md:p-2 rounded-2xl md:rounded-full text-base md:text-xs font-normal md:font-medium  px-2 py-0.5 md:px-1.5 md:py-2 
+      }
+     
+    
+    
+     
+     
+}
